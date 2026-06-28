@@ -1,0 +1,9 @@
+# Cloudflare Worker Configuration
+name = "sentinel-risk-intelligence-kimi"
+main = "worker/worker.js"
+compatibility_date = "2025-06-01"
+
+[vars]
+KIMI_BASE_URL = "https://api.moonshot.ai/v1"
+KIMI_CHAT_MODEL = "kimi-k2.6"
+KIMI_VISION_MODEL = "kimi-k2.6"
